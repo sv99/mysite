@@ -11,7 +11,7 @@ gh-pages -d src
 yarn deploy
 ```
 
-[https://sv99.github.io/mysite/](https://sv99.github.io)
+[https://sv99.github.io/mysite/](https://sv99.github.io/mysite/)
 
 
 ## Запуска
