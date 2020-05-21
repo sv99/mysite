@@ -1,8 +1,18 @@
 # Personal site
 
-[sv99.github.io](https://sv99.github.io)
-
 На базе [OptimizedHTML 5](https://github.com/agragregra/oh5)
+
+Сайт для проекта можно публикуется по умолчанию из ветки gh-pages.
+В эту ветку сливаем каталог src/ при помощи
+
+```bash
+gh-pages -d src
+# or
+yarn deploy
+```
+
+[https://sv99.github.io/mysite/](https://sv99.github.io)
+
 
 ## Запуска
 

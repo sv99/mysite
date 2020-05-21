@@ -5,7 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"lint": "eslint --fix"
+		"lint": "eslint --fix",
+		"deploy": "gh-pages -d src",
+		"serve": "gulp"
 	},
 	"author": "WebDesign Master",
 	"license": "ISC",
