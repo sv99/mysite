@@ -1,0 +1,51 @@
+{
+	"name": "mysite",
+	"version": "0.1.0",
+	"description": "sv99.github.com personal site",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint --fix"
+	},
+	"author": "WebDesign Master",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"browser-sync": "^2.26.7",
+		"del": "^5.1.0",
+		"eslint": "^7.0.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-html": "^6.0.2",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^3.1.3",
+		"gh-pages": "^2.2.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-newer": "^1.4.0",
+		"gulp-rsync": "0.0.8",
+		"gulp-sass": "^4.1.0",
+		"lodash.template": "^4.5.0",
+		"prettier": "^2.0.5"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	],
+	"prettier": {
+		"trailingComma": "es5",
+		"tabWidth": 2,
+		"semi": false,
+		"singleQuote": true,
+		"overrides": [
+			{
+				"files": "*.vue",
+				"options": {
+					"htmlWhitespaceSensitivity": "ignore"
+				}
+			}
+		]
+	}
+}

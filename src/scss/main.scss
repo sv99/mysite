@@ -1,0 +1,21 @@
+@import 'config';
+
+// CUSTOM USER STYLES & IMPORTS
+
+input, textarea {
+  outline: none;
+  &:focus:required:invalid { border-color: red }
+  &:required:valid { border-color: green }
+}
+
+body {
+  font-family: $roboto;
+  font-size: $fontsize;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  overflow-x: hidden;
+  color: $textcolor;
+  background: red;
+}
+
