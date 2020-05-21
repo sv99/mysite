@@ -109,9 +109,7 @@ function index() {
   // It's not necessary to read the files (will speed up things), we're only after their paths:
   const sources = src(distDir + '/dist/*', { read: false }).pipe(debug())
 
-  return target
-    .pipe(inject(sources, { ignorePath: 'src', empty: true }))
-    .pipe(dest(distDir))
+  return target.pipe(inject(sources, { relative: true })).pipe(dest(distDir))
 }
 
 function startwatch() {
